@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <!-- defer para carregar o scipt depois do html -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body class="dark">
+    <header>
+        <h2>Light and Dark</h2>
+        <div>
+            <input type="checkbox" name="change-theme" id="change-theme">
+            <label for="change-theme" id="icon">
+                <i class="bi bi-sun"></i>
+                <i class="bi bi-moon"></i>
+            </label>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="left-box">
+                <h1>Nike</h1>
+                <img src="./img/tenis.png" alt="">
+            </div>
+            <div class="right-box">
+                <h2>Tênis Nike</h2>
+                <h3>Excelente para corridas</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, aliquam distinctio iure eius corrupti, eligendi quibusdam eum, numquam totam possimus nesciunt voluptatibus unde! Aliquid veritatis recusandae distinctio, incidunt repudiandae sed!</p>
+                <div class="price-container">
+                    <span class="price">R$299,99</span>
+                    <button class="button">comprar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
